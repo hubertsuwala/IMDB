@@ -1,31 +1,5 @@
-/* ********************* 
-BELOW 1344px (smaller desktop)
- ********************* */
-@media (max-width: 84em) {
- 
-}
-/* ********************* 
-BELOW 1200px (tablets landscape)
- ********************* */
-@media (max-width: 75em) {
-
-}
-/* ********************* 
-BELOW 944px (tablets)
- ********************* */
-@media (max-width: 59em) {
-}
-/* ********************* 
-BELOW 720px (smaller tablets) 
- ********************* */
-@media (max-width: 45em) {
- 
-   
-}
-/* ********************* 
-BELOW 560px (phones) 
- ********************* */
-@media (max-width: 35em) {
-  
- 
+@media (max-width: 570px) {
+    #menu {
+        width: 100%;
+    }
 }

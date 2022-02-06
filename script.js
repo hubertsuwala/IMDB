@@ -92,7 +92,6 @@ async function displayMovie(year = '2020', genre = 'Comedy') {
                 const html = ` 
 <diV class="movie" >
     <div class="img-wrapper" style="background-image: url('${banner}');">
-   
       <p class="plot">${plot}</p>
       <button class="button" id="${imdb_id}">Add to Watchlist</button>
     </div>
@@ -135,7 +134,7 @@ async function btnClick(e) {
                                 .map(
                                         (movie) =>
                                                 ` 
-<diV class="movie-menu">
+<div class="movie-menu">
 <img class="img-menu" src="${movie.image_url}" alt="${movie.title}">  
 <button class="cart-button" value="${movie.imdb_id}">Delete</button>
 </div>`
