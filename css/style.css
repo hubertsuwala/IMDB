@@ -31,7 +31,8 @@ select {
   border-radius: 5%;
   border: none;
   outline-color: rgb(20, 6, 20);
-  height: 5rem;
+  /* height: 5rem; */
+  padding: 2rem;
 }
 
 .movies {
