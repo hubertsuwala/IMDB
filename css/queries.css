@@ -2,4 +2,12 @@
     #menu {
         width: 100%;
     }
+
+    .filters {
+        grid-gap: 1rem;
+    }
+
+    select {
+        padding: 1rem;
+    }
 }

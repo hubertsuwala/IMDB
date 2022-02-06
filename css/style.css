@@ -24,7 +24,9 @@ body {
 select {
   -webkit-appearance: none;
   font-size: 2rem;
-  text-align: center;
+  text-align: center !important;
+  text-align: -moz-center !important;
+  text-align: -webkit-center !important;
   background: var(--background-color);
   box-shadow: var(--box-shadow);
   color: var(--text-color);
